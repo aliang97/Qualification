@@ -69,7 +69,7 @@ const gotoNavItem = () => {
   transform: translate(-50%, -50%);
   width: 16px;
   height: 16px;
-  background-color: var(--color-bg-2);
+  background-color: var(--color-bg-1);
   border-radius: 50%;
 }
 

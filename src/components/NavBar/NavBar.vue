@@ -68,6 +68,8 @@ const navItems = [
 }
 
 .NavBar {
+  --color-bg-1: var(--color-black-2);
+  --color-text-1: var(--color-white-1);
   --color-inactive: #777;
   --color-active: var(--color-text-1);
   --size-navItem-Y: 88px;
@@ -75,7 +77,7 @@ const navItems = [
 
   position: absolute;
   height: 100vh;
-  background-color: var(--color-bg-2);
+  background-color: var(--color-bg-1);
   transition: width 0.2s ease;
   padding: 32px 0;
   overflow: hidden;

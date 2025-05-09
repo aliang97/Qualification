@@ -1,15 +1,15 @@
 /* TODO: color variables */
 :root {
-  --color-bg-1: #181818;
-  --color-bg-2: #282828;
+  --color-black-1: #181818;
+  --color-black-2: #282828;
 
-  --color-text-1: #f2f2f2;
+  --color-white-1: #f2f2f2;
 }
 
 body {
   min-height: 100vh;
-  color: var(--color-text-1);
-  background: var(--color-bg-1);
+  color: var(--color-white-1);
+  background: var(--color-black-1);
   font-family:
     Inter,
     -apple-system,

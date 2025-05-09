@@ -33,7 +33,7 @@ const pageData = {
       label: 'Resume',
     },
   ],
-  description: `Hello, I'm a full-stack software engineer looking for a job! I have 4+ years of experience with Javascript/Typescript, Python, and Go. I have worked both independently and as part of a larger team in an agile environment. I've also handled scoping discussions with clients as well and led some projects of my own.`,
+  description: `Hello, I'm a full-stack software engineer looking for a job! I have 4+ years of experience with Javascript/Typescript, Python, and Go.`,
 };
 </script>
 
@@ -49,6 +49,9 @@ const pageData = {
 
 <style scoped>
 .LandingPage {
+  --color-bg-1: var(--color-black-1);
+  --color-text-1: var(--color-white-1);
+
   min-height: calc(100vh - 200px);
   width: 100%;
   margin: 100px 0;
@@ -56,6 +59,7 @@ const pageData = {
 
 .background {
   background-color: var(--color-bg-1);
+  color: var(--color-text-1);
 }
 
 .container {
