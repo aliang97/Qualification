@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import CompanyHeading from './CompanyHeading.vue';
-import YextSVG from '@/assets/WorkHistory/YextLogo.svg';
+import NASALogo from '@/assets/WorkHistory/nasa.png';
 
 const companyHeadingData = {
-  logoSrc: YextSVG,
+  logoSrc: NASALogo,
   name: 'NASA Langley Research Center',
   tenure: '2016 - 2017',
   title: 'Intern',

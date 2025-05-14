@@ -29,16 +29,12 @@ const navItems = [
     cssSelector: '.LandingPage',
   },
   {
-    label: 'Work History',
-    cssSelector: '.WorkHistory',
-  },
-  {
     label: 'About Me',
     cssSelector: '.AboutMe',
   },
   {
-    label: 'Contact Me',
-    cssSelector: '.ContactMe',
+    label: 'Resume',
+    cssSelector: '.WorkHistory',
   },
 ];
 </script>
@@ -65,6 +61,10 @@ const navItems = [
   top: 0;
   left: 0;
   z-index: 10;
+
+  @media (max-width: 769px) {
+    display: none;
+  }
 }
 
 .NavBar {
@@ -73,7 +73,7 @@ const navItems = [
   --color-inactive: #777;
   --color-active: var(--color-text-1);
   --size-navItem-Y: 88px;
-  --amount-navItems: 4;
+  --amount-navItems: 3;
 
   position: absolute;
   height: 100vh;

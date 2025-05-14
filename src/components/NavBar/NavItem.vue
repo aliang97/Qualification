@@ -41,7 +41,7 @@ const gotoNavItem = () => {
 
 .interactable:hover {
   cursor: pointer;
-  background-color: blue;
+  background-color: var(--color-blue-2);
 }
 
 .icon {

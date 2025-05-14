@@ -5,7 +5,6 @@ import YextSVG from '@/assets/WorkHistory/YextLogo.svg';
 const companyHeadingData = {
   logoSrc: YextSVG,
   name: 'Yext',
-  // website: 'https://yext.com',
   tenure: '2019 - 2024',
   title: 'Software Engineer II - Software Engineer IV',
 };
@@ -20,9 +19,18 @@ const companyHeadingData = {
         Templates or React with a focus on search engine optimization, responsive design, and user
         activity analytics tracking. For some examples of my work, you can visit these live pages:
         <ul>
-          <li>https://locations.outback.com (100k average daily pageviews)</li>
-          <li>https://storelocator.asda.com (50k average daily pageviews)</li>
-          <li>https://bankers.amerisbank.com (10k average daily pageviews)</li>
+          <li>
+            <a href="https://locations.outback.com">https://locations.outback.com</a> (100k average
+            daily pageviews)
+          </li>
+          <li>
+            <a href="https://storelocator.asda.com">https://storelocator.asda.com</a> (50k average
+            daily pageviews)
+          </li>
+          <li>
+            <a href="https://bankers.amerisbank.com">https://bankers.amerisbank.com</a> (10k average
+            daily pageviews)
+          </li>
         </ul>
       </li>
       <li>
@@ -68,6 +76,10 @@ const companyHeadingData = {
 
 ul {
   margin-left: 32px;
+
+  @media (max-width: 426px) {
+    margin-left: 24px;
+  }
 }
 
 li {

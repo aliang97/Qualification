@@ -27,6 +27,11 @@ const props = defineProps<{
   width: 300px;
   border-radius: 50%;
   overflow: hidden;
+
+  @media (max-width: 769px) {
+    height: 200px;
+    width: 200px;
+  }
 }
 
 img {
@@ -37,7 +42,12 @@ img {
 }
 
 h1 {
+  text-align: center;
   font-size: 60px;
   font-weight: 600;
+
+  @media (max-width: 769px) {
+    font-size: 42px;
+  }
 }
 </style>

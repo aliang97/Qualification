@@ -13,8 +13,8 @@ const props = defineProps<{
 <template>
   <div class="CompanyHeading">
     <div class="left">
-      <div class="logo">
-        <img v-if="props.logoSrc" :src="props.logoSrc" alt="company logo" />
+      <div v-if="props.logoSrc" class="logo">
+        <img :src="props.logoSrc" alt="company logo" />
       </div>
       <h3>{{ props.name }}</h3>
       <div v-if="props.title" class="title">{{ props.title }}</div>
@@ -35,6 +35,10 @@ const props = defineProps<{
   padding: 8px 16px;
   background-color: #ddd;
   min-height: 48px;
+
+  @media (max-width: 769px) {
+    flex-direction: column;
+  }
 }
 
 .left {
@@ -45,6 +49,11 @@ const props = defineProps<{
   gap: 8px;
   position: relative;
   padding-left: 56px;
+
+  @media (max-width: 769px) {
+    flex-direction: column;
+    gap: 2px;
+  }
 }
 
 .logo {
@@ -98,5 +107,9 @@ a > img {
 
 .tenure {
   font-size: 16px;
+
+  @media (max-width: 769px) {
+    margin-top: 8px;
+  }
 }
 </style>

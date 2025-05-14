@@ -33,7 +33,7 @@ const pageData = {
       label: 'Resume',
     },
   ],
-  description: `Hello, I'm a full-stack software engineer looking for a job! I have 4+ years of experience with Javascript/Typescript, Python, and Go.`,
+  description: `Hi, I'm a full-stack software engineer looking for work! I have 5+ years of experience with Javascript/Typescript, Python, and Go.`,
 };
 </script>
 
@@ -55,6 +55,10 @@ const pageData = {
   min-height: calc(100vh - 200px);
   width: 100%;
   margin: 100px 0;
+
+  @media (max-width: 426px) {
+    margin: 32px 0;
+  }
 }
 
 .background {

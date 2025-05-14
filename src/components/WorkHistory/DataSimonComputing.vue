@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import CompanyHeading from './CompanyHeading.vue';
-import YextSVG from '@/assets/WorkHistory/YextLogo.svg';
+import logoSrc from '@/assets/WorkHistory/SimonComputing.png';
 
 const companyHeadingData = {
-  logoSrc: YextSVG,
+  logoSrc: logoSrc,
   name: 'SimonComputing',
   tenure: '2017 - 2018',
   title: 'Intern',
