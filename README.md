@@ -1,6 +1,8 @@
 # Resume
 
-This template should help get you started developing with Vue 3 in Vite.
+This vue site is a digital version of my resume.
+
+`npm run deploy` to deploy changes (builds the site into /dist/ and push to branch 'gh-pages')
 
 ## Recommended IDE Setup
 

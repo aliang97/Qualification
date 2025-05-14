@@ -28,7 +28,7 @@ const pageData = {
       label: 'Email',
     },
     {
-      href: 'https://drive.google.com/file/d/1FLwhDpweBLdqNl0v_PyLvmv_yoHUvxGK/view?usp=sharing',
+      href: 'https://aliang97.github.io/Resume/Resume.pdf',
       icon: ResumeSVG,
       label: 'Resume',
     },
