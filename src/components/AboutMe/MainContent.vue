@@ -45,6 +45,10 @@ import PhotoSrc from '@/assets/AboutMe/photo_cropped.png';
   }
 }
 
+.photo {
+  margin: auto;
+}
+
 img {
   width: 285px;
   height: 300px;
@@ -52,6 +56,7 @@ img {
 
   @media (max-width: 769px) {
     width: 100%;
+    max-width: 350px;
     height: unset;
   }
 }
